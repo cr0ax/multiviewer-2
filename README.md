@@ -9,6 +9,12 @@ A rewrite of my [Defold Multiviewer](https://github.com/rgrams/multiviewer) in L
 ### Missing features from Defold version:
 * No native file dialogs (which only worked on Windows and MacOS anyway).
 
+### Build a stand-alone appImage
+
+We can use [makelove](https://github.com/pfirsich/makelove) to build a packaged image.
+
+Simply install makelove using `pip3 install makelove` and run `makelove` in the root directory of this project.
+
 ### Added features from Defold version:
 * No CPU cost at rest
 	- The window is only redrawn when you interact with it, so the CPU load should be pretty much zero when the program is just sitting there.
